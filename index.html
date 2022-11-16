@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>ATIVIDADE 6 - 04/JUL</title>
+</head>
+
+
+<body>
+    <h1>FORMULÁRIO</h1>
+    <p>
+    </p>
+    <form name="Formulario do Pedro" autocomplete="off">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        Nome:
+        <input type="text" id="nome" name="nome" maxlength="10" value="" autofocus required>
+        <br>
+        Endereço:
+        <input type="text" id="end" name="endereco" max="10" value="" autofocus>
+        <br>
+        Cidade:
+        <input type="text" id="cid" name="cidade" autofocus>
+        <p>
+        </p>
+        Estado:
+        <select name="estados" id="estados">
+            <option value="Rio Grade do Sul">Rio Grande do Sul</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+        </select>
+    </fieldset>
+    <p></p>
+
+    <fieldset>
+        <legend> Dados Profissionais</legend>
+        Natureza do Cargo<br>
+        <input type="radio" id="Gerencia" name="Cargo" value="gerencia">
+        <label for="Gerencia">Gerência</label>
+        <input type="radio" id="Financeiro" name="Cargo" value="financeiro">
+        <label for="Financeiro">Financeiro</label>
+        <input type="radio" id="Recepcao" name="Cargo" value="recepcao">
+        <label for="Recepcao">Recepção</label>
+        <input type="radio" id="Administrativo" name="Cargo" value="administrativo">
+        <label for="Administrativo">Administrativo</label>
+        <input type="radio" id="Juridico" name="Cargo" value="juridico">
+        <label for="Juridico">Jurídico</label><br>
+        <p></p>
+        Área de Interesse<br>
+        <input type="checkbox" id="Computacao" name="area" value="computacao">
+        <label for="Computacao">Computação</label>
+        <input type="checkbox" id="Biologia" name="area" value="biologia">
+        <label for="Biologia">Biologia</label>
+        <input type="checkbox" id="MeioAmbiente" name="area" value="meioambiente">
+        <label for="MeioAmbiente">Meio Ambiente</label>
+        <input type="checkbox" id="Engenharia" name="area" value="engenharia">
+        <label for="Engenharia">Engenharia</label>
+        <input type="checkbox" id="Historia" name="area" value="histoia">
+        <label for="Historia">História</label><br>
+
+        Mini-curriculo:
+        <textarea id="Curriculo" name="curriculo" rows="10" cols="50"></textarea>        
+    </fieldset>
+
+        <button type="submit" value=""> Salvar</button>
+        <button type="reset" value="limpar">Limpar</button>
+    </form>
+
+</body>
+
+
+</html>
